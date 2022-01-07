@@ -1,38 +1,55 @@
-.App {
+.title {
+  text-align: center;
+  font-size: 130px;
+  margin-bottom: 1%;
+  background-image: linear-gradient(to left, violet, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.box {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sale {
+  text-align: center;
+  font-size: 85px;
+  margin-bottom: 0%;
+  color: rgb(41, 169, 41)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.usual {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0%;
+  opacity: 50%;
+  color: rgb(48, 48, 48);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.percentage {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0%;
+  color: rgb(48, 48, 48);
 }
 
-.App-link {
-  color: #61dafb;
+.percentage2 {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 0%;
+  color: rgb(41, 169, 41)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.review {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0%;
+  color: rgb(48, 48, 48);
+}
+
+.review2 {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 0%;
+  color: rgb(48, 48, 48);
 }
